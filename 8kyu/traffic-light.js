@@ -20,3 +20,12 @@ function updateLight(current) {
     return ;
    }
    }
+
+
+//solutions from others
+
+function updateLight(current) {
+  
+    return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+  
+  }
